@@ -60,6 +60,20 @@ This repository contains the complete implementation, experimental suite, and me
 
 ---
 
+
+---
+
+## ⚠️ Important Setup & Execution Notes
+
+* **Extended Results Scope:** The benchmarks summarized in this README detail the core project highlights. Additional metrics, detailed evaluations, and fine-grained visual artifacts are generated dynamically by the code scripts.
+* **Official DiT Dependency:** You must import/include the standard `DiT/` directory from the official paper repository (`facebookresearch/DiT`) within your workspace. Custom experimental scripts interact directly with these foundational module files.
+* **Workspace Setup:** Follow the structure outlined in the **Project Directory Structure** above to properly align file paths and script imports.
+* **Logs & Debugging:** Execution logs generated during script execution are intentionally included to verify script progression and assist with step-by-step debugging. Do not suppress or delete these logging utilities.
+* **Inline Package Directives:** Specific scripts include inline code comments specifying exact package installation steps or model weight downloads. Refer to script header comments if encountering missing modular utilities.
+* **Package Error Handling:** If Python raises package missing or import errors during runtime, confirm that all required libraries from `requirements.txt` are installed (`pip install -r requirements.txt`) and that your active virtual environment matches the setup instructions.
+
+
+
 ## 📁 Project Directory Structure
 
 ```text
